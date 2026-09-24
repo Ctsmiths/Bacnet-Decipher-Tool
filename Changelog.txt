@@ -1,3 +1,8 @@
+## v1.5 - 2026-09-23
+- Fixed: Energy Valve EV3 codes that include Freeze Warning (2048) now decode correctly. Previously a code of 2048 listed eleven wrong errors and 4095 missed Freeze Warning.
+- Fixed: TEM 4.2 (MV[103], MV[104], MV[105]) codes now decode. A typo in the version names made every TEM 4.2 decode stop after its first row.
+- Fixed: the Code Type list no longer shows duplicate entries after changing Product several times, and resets to -Select- when the Product changes.
+
 ## v1.4 - 2026-09-22
 - Added GitHub-based auto-update: the tool now checks for new versions on open and lets you know when one's available.
 - Added a "Check for Updates" button and a "Download Fresh Copy" button to the About screen, so you can check manually or grab a known-good copy any time.
