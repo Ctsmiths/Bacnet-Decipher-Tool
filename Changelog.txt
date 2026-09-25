@@ -1,3 +1,10 @@
+## v1.6 - 2026-09-24
+- Standard admin keys, the same in every Belimo tool: F12 asks for the admin password and then shows and unprotects every sheet; F11 puts every sheet back exactly as it was.
+- One password now protects every sheet in every tool.
+- Corrected spelling mistakes in the error and status descriptions and in the reference tables.
+- You are now told when a newer version exists: when you open the tool, a message offers to install it (Yes downloads and installs it, No carries on). You are asked only once for each new version; Check for Updates on the About screen is always there.
+- Fixed: on a PC whose regional settings use a comma for decimals (for example Spanish, Portuguese or French), Check for Updates could keep offering the version you already had.
+
 ## v1.5 - 2026-09-23
 - Fixed: Energy Valve EV3 codes that include Freeze Warning (2048) now decode correctly. Previously a code of 2048 listed eleven wrong errors and 4095 missed Freeze Warning.
 - Fixed: TEM 4.2 (MV[103], MV[104], MV[105]) codes now decode. A typo in the version names made every TEM 4.2 decode stop after its first row.
